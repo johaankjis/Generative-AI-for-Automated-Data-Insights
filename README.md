@@ -95,14 +95,12 @@ An intelligent data insights platform powered by generative AI that automates SQ
 ├── public/                       # Static assets
 │   └── *.svg, *.png, *.jpg       # Images and logos
 │
-├── styles/                       # Additional stylesheets
-│   └── globals.css
+├── styles/                       # Additional stylesheets (optional)
 │
 ├── components.json               # shadcn/ui configuration
 ├── next.config.mjs               # Next.js configuration
 ├── package.json                  # Dependencies and scripts
-├── postcss.config.mjs            # PostCSS configuration
-├── tailwind.config.ts            # Tailwind CSS configuration
+├── postcss.config.mjs            # PostCSS & Tailwind configuration
 └── tsconfig.json                 # TypeScript configuration
 ```
 
@@ -231,7 +229,7 @@ const { text } = await generateText({
 
 The application uses Tailwind CSS with custom components. Modify styles in:
 - `app/globals.css` - Global styles and CSS variables
-- `tailwind.config.ts` - Tailwind configuration
+- `postcss.config.mjs` - PostCSS and Tailwind CSS configuration
 - `components.json` - shadcn/ui component configuration
 
 ## 🧪 Development
