@@ -95,12 +95,13 @@ An intelligent data insights platform powered by generative AI that automates SQ
 ├── public/                       # Static assets
 │   └── *.svg, *.png, *.jpg       # Images and logos
 │
-├── styles/                       # Additional stylesheets (optional)
+├── styles/                       # Global stylesheets
+│   └── globals.css               # Alternative global styles
 │
 ├── components.json               # shadcn/ui configuration
 ├── next.config.mjs               # Next.js configuration
 ├── package.json                  # Dependencies and scripts
-├── postcss.config.mjs            # PostCSS & Tailwind configuration
+├── postcss.config.mjs            # PostCSS configuration (includes Tailwind)
 └── tsconfig.json                 # TypeScript configuration
 ```
 
