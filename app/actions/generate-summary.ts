@@ -56,7 +56,7 @@ Keep it clear, concise, and easy to understand.`,
 
     return text.trim()
   } catch (error) {
-    console.error("[v0] Error in generateSummary:", error)
+    console.error("[] Error in generateSummary:", error)
     throw new Error("Failed to generate summary")
   }
 }
